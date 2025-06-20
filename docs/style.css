@@ -1,0 +1,472 @@
+.head{
+    background-color: #cedafa;
+    text-align: center;
+    height: 30px;
+    padding-top:10px;
+    font-weight: 800;
+}
+.head span:first-child{
+    color: white;
+    background: black;
+    padding: 2px 4px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.head span:last-child{
+    text-decoration: underline;
+}
+
+/* premiere section */
+.first{
+   background-image: url(https://docrdsfx76ssb.cloudfront.net/static/1750120790/pages/wp-content/themes/JointsWP-CSS-master/assets/images/stars.svg);
+   background-repeat: no-repeat;
+   object-fit: cover;
+   background-color:#031f39 ;
+   color: white;
+   padding-bottom: 40px;
+}
+nav{
+    display: flex;
+    height: 105px;
+    justify-content: space-between;
+}
+.nav1{
+    display: flex;
+    color: white;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.nav1 i{
+    color: white;
+}
+.nav1 .logo{
+    object-fit: cover;
+    height: 130px;
+    padding-right: 120px;
+}
+.nav11{
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+/* a revoir sur le dripdown */
+.nav11 span i:last-child,.dripdown{
+    display: none;
+}
+.dripdown{
+    position: absolute;
+}
+.nav11:hover .dripdown ,.nav11:hover span i:first-child{
+    display: block;
+    color:white;
+    width: 30%;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav22 img{
+    object-fit: cover;
+    height: 20px;
+    width: 20px;
+}
+.nav22 button{
+    border-radius: 5px;
+}
+.nav11 a,.nav22 a{
+    color: white;
+    text-decoration: none;
+}
+
+.first h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.user-url{
+    text-align: center;
+    font-size: 20px;
+}
+.user-url span{
+    margin-left: 70px;
+}
+.link-source{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.link-source div:first-child ,.link-source div:last-child{
+    padding:5px 20px;
+    margin-bottom:10px;
+}
+.link-source div:first-child{
+    color: #031f39;
+     background: white;
+      border: 1px solid;
+}
+.link-source div:last-child:hover{
+    background-color: #27537c;
+     border-radius: 5px;
+}
+
+.link-source div{
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.link-source div img{
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+/* shorten */
+
+.shorten{
+    background: white;
+    color:black;
+    border-radius:10px;
+    margin: 10px 180px;
+    padding: 7px 0;
+}
+.shorten h2,.shorten p,.shorten input,.shorten h4,.shorten button{
+    margin-left: 30px;
+}
+.shorten p{
+    margin-bottom: 80px;
+}
+.shorten input{
+    padding: 10px 80px;
+    width:70%;
+    margin-bottom: 20px;
+}
+.shorten input:hover{
+    border: 1px solid blue;
+}
+.shorten button{
+    color:white;
+    padding: 9px 15px;
+    border-radius: 6px;
+    background:blue;
+    border: none;
+}
+.first h3{
+    text-align: center;
+}
+.last-part{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.last-part div{
+    display: flex;
+}
+
+/* second section */
+.second .great{
+    text-align: center;
+    color: #a0a09d;
+    font-size: 20px;
+    margin: 30px 0;
+    background: #f7f4ee;
+}
+.second h1{
+    text-align: center;
+    font-size: 40px;
+}
+.second p{
+    text-align: center;
+}
+.second p span{
+    margin-left: 20px;
+}
+.get-started{
+    display: flex;
+    justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.get-started button{
+    padding: 18px 40px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: 20px;
+    border: none;
+}
+.get-started button:first-child{
+    background: #0058dd;
+    color: white;
+}
+.get-started button:last-child{
+    border: 1px solid #0058dd;
+    color:#0058dd;
+    background: white;
+}
+
+
+/* troisieme partie */
+
+.third-partie{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    gap:20px;
+}
+.third-partie div div:first-child img{
+    object-fit: cover;
+    border: 1px solid;
+    height: 300px;
+}
+.third-partie div{
+    border: 1px solid;
+    border-radius: 7px;
+}
+.third12-p{
+    padding: 10px;
+}
+.third-partie div div:last-child{
+    padding: 20px;
+}
+.third-partie div div:last-child h1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 30px;
+    color: #031f39;
+}
+.third-partie div div:last-child h1 img{
+    object-fit: cover;
+    height: 44px;
+}
+.third-partie div div:last-child p:first-child{
+    text-align: center;
+    padding: 20px;
+}
+.third-partie div div:last-child button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.third-partie div div:last-child .btn{
+    background: blue;
+    color: white;
+}
+.third-partie div div:last-child .btn1{
+    background: white;
+    color:blue ;
+    border: 1px solid blue;
+}
+.third22 h3,.third32 h3{
+    border: 1px solid;
+    margin-top: 55px;
+}
+
+/* troisieme partie */
+.adopted-container{
+    margin:40px 0;
+    background: #fffdf8;
+    padding: 20px;
+}
+.adopted-container h1{
+    margin: 60px;
+    text-align: center; 
+    color: #031f39;
+    font-weight: 750;
+    font-size:40px;
+}
+.adopted{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+.adopted div{
+    border: 1px solid;
+    width: 20%;
+    background:#eeeae3;
+    border-radius:21px;
+    height: 260px;
+}
+.adopted div img{
+    object-fit: cover;
+    height: 80px;
+    padding-top: 20px;
+    margin: 0;
+}
+.adopted div h1{
+    font-weight: 900;
+    font-size: 65px;
+    margin: 0;
+    width: 80%;
+}
+.adopted p{
+    text-align: center;
+}
+.cienquieme-partie{
+    background: #f36600;
+    padding: 20px;
+}
+.vide{
+    border: 1px solid;
+    background: #f5bb8f;
+    height: 250px;
+    position: relative;
+    width: 70%;
+    margin-top: 150px;
+}
+.cinq .div-abs{
+    background: white;
+    position: absolute;
+    width:60%;
+    height: 350px;
+    top: -50px;
+    bottom: 30px;
+    left:50px;
+}
+.cinq{
+    position: relative;
+    height: 400px;
+}
+.cinq div{
+    border-radius: 28px;
+    margin-left: 220px;
+}
+.absolut{
+    text-align: center;
+    width:95%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.div-abs .when{
+    object-fit: cover;
+    margin: 30px;
+}
+.absolut1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+.absolut1 img{
+    object-fit: cover;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+
+}
+.absolut1 div{
+    position: absolute;
+    top: 20px;
+}
+.absolut1 div p{
+    width: 160%;
+    margin-right: 0;
+}
+.cienquieme-partie i{
+    border: 1px solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+    
+}
+.cienquieme-partie .i{
+        margin-left: 520px;
+}
+
+
+
+/* sixieme partie */
+.sixieme-partie .six{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-six,.six h1{
+    margin: 40px;
+}
+.six h1{
+    margin-left: 60px;
+    font-size: 30px;
+}
+.sixieme-partie div:first-child h1{
+    text-align: center;
+}
+.side{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 50%;
+}
+.side img{
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+}
+.side div{
+    background:#eeeae3;
+    border-radius: 12px;
+}
+.side h2{
+    color:#8c8a85 ;
+    margin-left: 20px;
+}
+.side p,.side h1{
+    margin-left: 20px;
+}
+.side a{
+    color:#07080a ;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.side a i{
+    margin: 5px;
+}
+
+/* derniere partie */
+.last-partie{
+       background-image: url(https://docrdsfx76ssb.cloudfront.net/static/1750120790/pages/wp-content/themes/JointsWP-CSS-master/assets/images/stars.svg);
+        padding: 20px 10px;
+        background-repeat: no-repeat;
+        background: #031f39;
+}
+.last-partie .more{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #e99555;
+}
+.last-partie p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.last-partie button{
+    background: transparent;
+    color: white;
+    margin-left: 450px;
+    border:1px solid;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 22px;
+}
+.last-partie button i{
+    margin: 5px;
+}
+.last-partie .load{
+    object-fit: cover;
+    margin: 0;
+}
+.last-partie .rien{
+    background: #f36600;
+    height:4px;
+}
+
