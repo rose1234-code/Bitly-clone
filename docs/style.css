@@ -467,6 +467,100 @@ gap: 20px;
 }
 .last-partie .rien{
     background: #f36600;
-    height:4px;
+    height:3px;
+    border: none;
+    width: 100%;
+    margin: 0;
 }
-
+ .last-partie .custom-image {
+    width: 100%; /* ou une largeur fixe comme 1400px */
+    height:450px; /*auto conserve le ratio d'origine pas d'etirement */
+    margin: 0 auto;  /* centre l'image orizontalement */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.imgfoot{
+    height: 449px;
+    margin-top: 10px;
+}
+.foot1{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.foot1 div{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.foot1 div h3{
+    color: #f49510;
+}
+.foot1 div ul li{
+    list-style: none;
+}
+.foot1 div ul{
+    line-height: 35px;
+}
+.foot1 div ul li a{
+    text-decoration: none;
+    color: white;
+}
+.foot1 div ul li a:hover{
+    text-decoration: underline;
+}
+hr{
+    background-color: #0e4246;
+    border: none;
+    height: 0.1px;
+}
+.pied{
+    display: flex;
+    justify-content: space-between;
+}
+.pied1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 10px;
+}
+.pied1 p{
+    font-size:15px;
+}
+.pied1 img{
+    object-fit: cover;
+    height: 90px;
+}
+.pied2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pied2 div:last-child img{
+    object-fit: cover;
+    height: 40px;
+    border-radius: 6px;
+    margin-left:3px;
+}
+.last-img h1{
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    margin: 0;
+}
+.last-img p{
+    color: #a0a09d;
+    font-size: 8px;
+    margin: 0;
+}
+.last-img div{
+     padding:4px 4px;
+     background:#24425d;
+     border-radius: 7px;
+}
+.last-img{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
